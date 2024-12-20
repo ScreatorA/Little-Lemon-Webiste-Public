@@ -1,0 +1,40 @@
+/* ABOUT */
+.about {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.aboutText > h2,
+h3 {
+  font-family: "Karla";
+  padding-bottom: 1rem;
+}
+
+.aboutText > p {
+  font-family: "Markazi text";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.aboutImage {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 20rem;
+  height: auto;
+}

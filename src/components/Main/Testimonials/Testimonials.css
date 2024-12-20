@@ -1,0 +1,95 @@
+/* TESTIMONIALS */
+.testimonials {
+  background-color: #495e57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.testimonialsHeader {
+  margin: 1rem;
+}
+
+.testimonialsHeader > h2 {
+  color: #ffffff;
+  font-family: "Karla";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.testimonialsArticle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonials article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edefee;
+  border-radius: 12px;
+  width: 15rem;
+  height: auto;
+  margin-bottom: auto;
+  flex-wrap: wrap;
+}
+
+.profileInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profileInformation img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 12px;
+  padding: 0 0 auto 0;
+  margin: 0 0 auto 0;
+}
+
+.personRating {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.personRating p,
+.rating {
+  align-self: center;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+}
+
+.rating{
+  display: flex;
+  flex-direction: row;
+}
+
+.personRating p {
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#rating {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.review {
+  padding: 0.25rem 1rem 0.5rem 1rem;
+  align-self: flex-start;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,53 @@
+/* Standard Layout */
+#root.root-default {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0.25fr 1.5fr 3fr 2fr 2fr 0.5fr; /* Alle Rows sichtbar */
+  margin: 0 80px;
+  column-gap: 20px;
+  background-color: #fbdab6;
+}
+
+/* About-Seite Layout */
+#root.root-about,
+#root.root-menu,
+#root.root-reservations,
+#root.root-orderOnline,
+#root.root-login {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 0.25fr 1.5fr 0.5fr; /* Nur Header und Footer sichtbar */
+  margin: 0 80px;
+  column-gap: 20px;
+  background-color: #fbdab6;
+}
+
+@media (max-width: 600px) {
+  /* Small tablets */
+  #root {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    column-gap: 20px;
+    grid-template-rows: 0.25fr 1.5fr 3fr 2fr 2fr 0.25fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1178px) {
+  /* Small tablets */
+  #root {
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0;
+    column-gap: 20px;
+    grid-template-rows: 0.1fr 1.5fr 3fr 2fr 2fr 0.25fr;
+  }
+
+  @media (max-width: 1024px) {
+    /* Small tablets */
+    #root {
+      grid-template-columns: repeat(6, 1fr);
+      margin: 0;
+      column-gap: 20px;
+      grid-template-rows: 0.1fr 1.5fr 3fr 2fr 2fr 0.25fr;
+    }
+  }
+}

@@ -1,0 +1,178 @@
+/* BUTTON */
+button {
+  background-color: #f4ce14;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 12px;
+  font-family: "Karla";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonMenu {
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+.highlights,
+.testimonials,
+.about,
+p {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  /* Small tablets */
+
+  /* HERO SECTION */
+  .heroSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  aside img {
+    margin: 0 auto 0 1rem;
+    max-width: 100%;
+  }
+
+  .buttonReservation {
+    margin-top: 1rem;
+    align-self: center;
+    max-width: 100%;
+  }
+
+  .heroSection p {
+    margin: 1rem 1rem 0 1.5rem;
+    max-width: 100%;
+  }
+
+  .heroSection .textContent {
+    max-width: 100%; /* Limits the width of the text section */
+    align-items: center;
+  }
+
+  /* HIGHLIGHTS */
+
+  .highlights .textContent {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .highlights .textContent h2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .buttonMenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .highlightCards {
+    flex-direction: column;
+    align-content: center;
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+
+  #greekSalad,
+  #bruschetta,
+  #lemonDessert {
+    height: 100%;
+    max-width: 100%;
+  }
+
+  /* TESTIMONIALS */
+  .testimonialsArticle {
+    flex-direction: column;
+  }
+  /* ABOUT */
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutText {
+    align-items: center;
+  }
+
+  .aboutImage {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 962px) and (max-width: 1024px) {
+  .highlights {
+    padding: 0;
+  }
+
+  .highlights .textContent {
+    padding-top: 2rem;
+  }
+
+  .highlightCards {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .bruschettaCard,
+  .greekSaladCard,
+  .lemonDessertCard {
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .cardImage {
+    max-width: 50%;
+  }
+
+  .menuInformation {
+    max-width: 50%;
+  }
+
+  #greekSalad,
+  #bruschetta,
+  #lemonDessert {
+    height: 100%;
+  }
+
+  .aboutText,
+  .aboutImage {
+    max-width: 50%;
+  }
+
+  .aboutImage {
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1178px) {
+  .highlights {
+    padding: 0;
+  }
+
+  .highlights .textContent {
+    padding-top: 2rem;
+  }
+
+  .highlightCards {
+    flex-wrap: nowrap;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .aboutText,
+  .aboutImage {
+    max-width: 50%;
+  }
+
+  .aboutImage {
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+}

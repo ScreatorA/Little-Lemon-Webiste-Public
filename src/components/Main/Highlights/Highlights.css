@@ -1,0 +1,99 @@
+/* HIGHLIGHTS */
+
+.highlights {
+  background-color: #d9d9d9;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 0 5rem 0;
+}
+
+.highlights .textContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0 0 5rem;
+  flex-wrap: wrap;
+}
+
+.highlights .textContent h2 {
+  font-family: "Karla";
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.highlightCards {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin: 5rem 10rem 0 10rem;
+}
+
+.greekSaladCard,
+.bruschettaCard,
+.lemonDessertCard {
+  background-color: #edefee;
+  margin: 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#greekSalad,
+#bruschetta,
+#lemonDessert {
+  width: 20rem;
+  height: 15rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 1rem;
+  flex-wrap: wrap;
+}
+
+.menuName {
+  font-family: "Karla";
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.menuPrice {
+  color: #ff8102;
+  font-family: "Karla";
+  font-size: 20px;
+  font-weight: medium;
+  margin-left: auto;
+}
+
+.cardDescription {
+  padding: 0rem 1rem;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.cardOrderInformation {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 0 1rem 1rem;
+  flex-wrap: wrap;
+}
+
+.cardOrderInformation p {
+  font-family: "Karla";
+  font-size: 16;
+  font-weight: 600;
+  align-self: center;
+}
+
+#transferMotorcycle {
+  width: 1.5rem;
+  height: 1.5rem;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 1rem;
+}

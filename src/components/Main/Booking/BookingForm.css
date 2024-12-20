@@ -1,0 +1,122 @@
+.fullForm,
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: #f4ce14;
+}
+
+span {
+  color: red;
+}
+
+.formHeading {
+  font-family: "Karla";
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  align-self: center;
+  padding-bottom: 2rem;
+}
+
+.formContent {
+  border-radius: 12px;
+  border-style: solid;
+  background-color: #495e57;
+  margin: 2rem 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.divField {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.dateLabelField {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  padding-right: 5rem;
+  color: white;
+}
+
+.field {
+  width: 20rem;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.reservationSubmit {
+  background-color: #f4ce14;
+  margin: 1rem 0;
+  align-self: center;
+}
+
+.error {
+  color: red;
+}
+
+.field:invalid {
+  border: 4px solid red;
+}
+
+.field-error {
+  border: 4px solid red;
+}
+
+.field-success {
+  border: 4px solid rgb(5, 243, 5);
+}
+
+.error-icon {
+  color: red;
+}
+
+.success-icon {
+  color: green;
+}
+
+/*Modern Browser Firefox, Google Chrome etc.*/
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Safari*/
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  border: 3px solid #FBDAB6;
+  border-top: 3px solid #EE9972;
+  border-bottom: 3px solid #EE9972;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  -webkit-animation: spin 3s linear infinite; /* Safari*/
+  animation: spin 10s linear infinite; /*Modern Browser Firefox, Google Chrome etc.*/
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.reservationSubmit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
